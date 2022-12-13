@@ -1,0 +1,71 @@
+﻿Soft and Hard Link
+ln -s source_file my_link
+ln -s /path/to/file1.txt /path/to/file2.txt
+ls -s /etc/hosts /tmp/file
+ls -ali /tmp/file /etc/hosts
+
+
+mv source destination > file
+Cp source destination > file
+Count login users: w | wc -l
+
+
+Search for particular string in file and store those lines in output file:
+grep “stringname” inputfile > outputfile
+
+
+length=${#string}
+substring=${string:i:j}
+(to check whether substring present in string : for(i=0;i<s.len-(sub.len+1);i++) if(${s:i:sub.len} == $sub) c++...)
+
+
+Length of array: ${#nums[@]}
+
+
+alias command=”realcommand”
+
+
+Reference   Class     Description
+u          owner      file's owner
+
+
+g          group      users who are members of
+                      the file's group
+
+
+o          others     users who are neither the
+                      file's owner nor members of 
+                      the file's group
+
+
+a          all       All three of the above, same as ugo
+r       Permission to read the file.
+w       Permission to write (or delete) the file.
+x       Permission to execute the file, or, in
+        the case of a directory, search it.
+
+
+0
+	---
+	No permissions 
+	1
+	--x
+	Execute permission only 
+	2
+	-w-
+	Write permission only 
+	3
+	-wx
+	Write and execute permissions 
+	4
+	r--
+	Read permission only 
+	5
+	r-x
+	Read and execute permissions 
+	6
+	rw-
+	Read and write permissions 
+	7
+	rwx
+	Read, write, and execute permissions
