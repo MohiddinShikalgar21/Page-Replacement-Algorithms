@@ -69,3 +69,9 @@ x       Permission to execute the file, or, in
 	7
 	rwx
 	Read, write, and execute permissions
+	
+	to count repeatition of lines in file
+      $ sort input.txt | uniq -c
+      6 I will choose Linux.
+      3 I will choose MAC OS.
+      1 I will choose Microsoft Windows.
