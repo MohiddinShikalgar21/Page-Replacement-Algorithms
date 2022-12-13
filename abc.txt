@@ -104,3 +104,6 @@ CHAR1-CHAR2	All characters from CHAR1 to CHAR2 in an ascending order.
 [:upper:]	All uppercase letters.
 [:xdigit:]	Hexadecimal digits.
 [=CHAR=]	All characters equivalent to CHAR.
+
+https://phoenixnap.com/kb/linux-tr#:~:text=The%20tr%20command%20is%20a,characters%2C%20and%20basic%20text%20replacement.
+
